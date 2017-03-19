@@ -9,16 +9,18 @@ h1 {
 	color: white;
 	background-color: steelblue;
 	margin: 0;
+	/* Remove bold */
 	font-weight: normal;
 	text-transform: uppercase;
+	/* Add line space */
 	line-height: 1.1;
+	/* Set top & down padding to 20px. left & right 0 */
 	padding: 20px 0;
 }
 
 .square{
 
-	/* Square Size */
-	background-color: purple; 
+	/* Square Size. Each square takes width of 30% of container space */
 	width: 30%;
 	padding-bottom: 30%;
 
@@ -28,6 +30,7 @@ h1 {
 	/* arrange from left */
 	float: left;
 
+	/* Round-corner squares, transition time */
 	border-radius: 15%;
 	transition: 0.3s;
 	-webkit-transition: 0.3s;
@@ -38,7 +41,11 @@ h1 {
 	/* set container to have top-down 0 margin, left-right auto margin 
 	Trick to center the container */
 	margin: 0 auto;
+
+	/* container max width */
 	max-width: 700px;
+
+	/* Space between container and strip */
 	padding-top: 35px;
 
 }
@@ -49,6 +56,7 @@ h1 {
 	text-align: center;
 }
 
+/* game mode button styling */
 .selected{
 	color: white;
 	background: steelblue;
@@ -58,18 +66,22 @@ h1 {
 	font-size: 200%;
 }
 
+/* game mode button styling */
 button{
 	border: none;
 	background: none;
 	text-transform: uppercase;
+	/* set letters take up all space */
 	height: 100%;
 	color: steelblue;
+	/* make letter bold */
 	font-weight: 700;
 	letter-spacing: 1px;
 	transition: all 0.2s;
 	outline: none;
 }
 
+/* button hover effects */
 button:hover{
 	color: white;
 	background-color: steelblue;
